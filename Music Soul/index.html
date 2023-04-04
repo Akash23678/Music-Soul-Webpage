@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SoulMusic - Touches Your Soul</title>
+    <link rel="icon" href="https://oceanofapk.com/wp-content/uploads/2017/07/Free-Music-Player-APK-Free-Download-300x300.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/design.css">
+    <script src="javascript/javafile.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/musiclogo.png" alt="Soul.com">
+        </div>
+        <ul class="middlebar">
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#ExploreMusic">Explore Music</a></li>
+            <li class="item"><a href="#NewSongs">New Songs</a></li>
+            <li class="item"><a href="#OldSongs">Old Songs</a></li>
+            <li class="item"><a href="#Artist">Artist</a></li>
+            <li class="item"><a
+                    href="https://music.youtube.com/playlist?list=PL_yIBWagYVjwYmv3PlwYk0b4vmaaHX6aL">Trending</a></li>
+            <li class="item"><a href="https://www.linkedin.com/in/akash-chandra-sahu-54016818a/">Contact Me</a></li>
+        </ul>
+        <!-- <div class="searchbar">
+            <input type="text" class="searchitems" placeholder="Search Items" maxLength="50" />
+            <button class="searchbtn">Search</button>
+        </div> -->
+    </nav>
+
+    <section id="home">
+        <h1>SoulMusic<br></h1>
+        <p>SoulMusic - Taste the Music, Feel the Music<br><br> Search, Plug and Play</p>
+
+        <section id="search-section">
+            <div class="search-area">
+                <div class="search-box">
+                    <div class="searchip">
+                        <input type="text" class="searchinput" placeholder="Search the music here" maxLength="50" />
+                    </div>
+                </div>
+                <a class="searchbtn1">
+                    <span>Search</span></a>
+            </div>
+        </section>
+        <button class="btn1">Get Plus Membership</button>
+    </section>
+
+
+    <section id="ExploreMusic">
+        <h1 class="h-head center">Explore Music</h1>
+        <div id="items">
+
+            <div class="box"><br>
+                <img src="img/new1.png" alt="">
+                <h2 class="h-secondary center"><a href="#NewSongs">New Songs</a></h2>
+            </div>
+            <div class="box"><br>
+                <img src="img/imgold.jpg" alt="">
+                <h2 class="h-secondary center"><a href="#OldSongs">Old Songs</a></h2>
+            </div>
+            <div class="box"><br>
+                <img src="img/sheryaimg-removebg-preview.png" alt="">
+                <h2 class="h-secondary center"><a href="#Artist">Artists</a></h2>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+
+
+    <section id="NewSongs">
+        <h1 class="h-primary center">New Songs</h1>
+        <div id="items">
+            <div class="box"><br>
+                <img src="img/new1.png" alt="">
+                <h2 class="h-secondary center">Saiyaan Ji</h2>
+                <p class="center">Name : Saiyaan Ji <br>Singer : Yo Yo Honey Singh<br>& Neha Kakkar<br></p>
+
+                <!-- music play and pause code -->
+                <div class="music-class">
+                    <p>Click here to listen</p>
+                    <img src="play.png" id="icon" onclick="myFunction()">
+                </div>
+                <audio id="mySong">
+                    <source src="audio.mp3" type="audio/mp3">
+                </audio>
+
+
+
+
+
+
+
+            </div>
+            <div class="box"><br>
+                <img src="img/new2.png" alt="">
+                <h2 class="h-secondary center">Is Qadar</h2>
+                <p class="center">Name : Is Qadar <br>Singer : Darshan Raval<br>& Tulsi Kumar<br></p>
+
+                <!-- music play and pause code -->
+                <div class="music-class">
+                    <p>Click here to listen</p>
+                    <img src="play.png" id="iconn" onclick="myFunctionn()">
+                </div>
+                <audio id="yourSong">
+                    <source src="audio1.mp3" type="audio/mp3">
+                </audio>
+
+
+
+            </div>
+            <div class="box"><br>
+                <img src="img/new3.png" alt="">
+                <h2 class="h-secondary center">Titaliaan</h2>
+                <p class="center">Name : Titaliaan <br>Singer : Harrdy Sandhu<br>& Afsana Khan<br></p>
+               
+               
+                <!-- music play and pause code -->
+                <div class="music-class">
+                    <p>Click here to listen</p>
+                    <img src="play.png" id="icon2" onclick="myFunction2()">
+                </div>
+                <audio id="oursong">
+                    <source src="audio2.mp3" type="audio/mp3">
+                </audio>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="OldSongs">
+        <h1 class="h-primary center">Old Songs</h1>
+        <div id="items">
+            <div class="box"><br>
+                <img src="img/imgold.jpg" alt="">
+                <h2 class="h-secondary center">Artists Collections</h2>
+                <p class="center">Artist wise songs, collection,<br> playlist & much more<br> according to your mood.<br><button
+                        class="btn2">Explore More</button></p>
+
+            </div>
+            <div class="box"><br>
+                <img src="img/imgold1.jpg" alt="">
+                <h2 class="h-secondary center">All time Collection</h2>
+                <p class="center">Here is the Playlist of<br> all time collection of<br> top songs & singers<button
+                        class="btn2">Explore More</button></p>
+
+            </div>
+            <div class="box"><br>
+                <img src="img/imgold2.jpg" alt="">
+                <h2 class="h-secondary center">Raj Kapoor Collections</h2>
+                <p class="center">Immortal voice & artist<br> always stays in our heart.<br>Play forever collections<button
+                        class="btn2">Explore More</button></p>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="Artist">
+        <h1 class="h-head center">Artists</h1>
+        <div id="items">
+
+            <div class="box"><br>
+                <img src="img/darsh-removebg-preview.png" alt="">
+                <h2 class="h-secondary center"><a
+                        href="https://music.youtube.com/channel/UCNMewQFJlBeyXpWwo2dezSw?feature=share">Darshan
+                        Raval</a></h2>
+            </div>
+            <div class="box"><br>
+                <img src="img/sonu-removebg-preview.png" alt="">
+                <h2 class="h-secondary center"><a
+                        href="https://music.youtube.com/channel/UCsC4u-BJAd4OX1hJXtwXSOQ?feature=share">Sonu Nigam</a>
+                </h2>
+            </div>
+            <div class="box"><br>
+                <img src="img/sheryaimg-removebg-preview.png" alt="">
+                <h2 class="h-secondary center"><a
+                        href="https://music.youtube.com/channel/UCrC-7fsdTCYeaRBpwA6j-Eg?feature=share">Sherya
+                        Ghosal</a></h2>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+
+
+    <section id="top-artist">
+        <h1 class="h-head2 center">Top Artists</h1>
+        <div id="top">
+            <div class="specials-item">
+                <img src="img/top1.jpg" alt="topartist">
+            </div>
+            <div class="specials-item">
+                <img src="img/top2.jpeg" alt="topartist">
+            </div>
+            <div class="specials-item">
+                <img src="img/imgold2.jpg" alt="topartist">
+            </div>
+            <div class="specials-item">
+                <img src="img/top3.jpg" alt="topartist">
+            </div>
+            <div class="specials-item">
+                <img src="img/top4.png" alt="topartist">
+            </div>
+            <div class="specials-item">
+                <img src="img/top5.jpg" alt="topartist">
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="center">
+            <!-- Developed by "Akash" -->
+            <button class="btn3">Get Free Trials</button>
+            <button class="btn3">Get Subscription</button>
+
+        </div>
+        
+    </footer>
+</body>
+
+</html>
